@@ -1,2 +1,2 @@
-from .widget import ForceDirectedGraph
-from .eventful_graph import EventfulGraph, empty_eventfulgraph_hook
+from d3networkx.widget import ForceDirectedGraph
+from d3networkx.eventful_graph import EventfulGraph, empty_eventfulgraph_hook

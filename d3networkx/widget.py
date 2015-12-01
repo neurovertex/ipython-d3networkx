@@ -1,5 +1,5 @@
-from IPython.html import widgets # Widget definitions
-from IPython.utils.traitlets import Unicode, CInt, CFloat # Import the base Widget class and the traitlets Unicode class.
+import ipywidgets as widgets # Widget definitions
+from traitlets import Unicode, CInt, CFloat # Import the base Widget class and the traitlets Unicode class.
 
 # Define our ForceDirectedGraph and its target model and default view.
 class ForceDirectedGraph(widgets.DOMWidget):
