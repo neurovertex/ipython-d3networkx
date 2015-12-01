@@ -11,7 +11,7 @@ class EventfulDict(dict):
         self._add_callbacks = []
         self._del_callbacks = []
         self._set_callbacks = []
-        dict.__init__(self, *args, **kwargs)
+        dict.__init__(self)
         
     def on_add(self, callback, remove=False):
         self._register_callback(self._add_callbacks, callback, remove)
